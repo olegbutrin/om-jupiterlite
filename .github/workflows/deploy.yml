@@ -24,7 +24,7 @@ jobs:
       - name: Build the JupyterLite site
         run: |
           cp README.md content
-          jupyter lite build --lite-dir . --piplite-wheels pypi/os_ws_sdk-1.0-py3-none-any.whl --contents content --output-dir dist
+          jupyter lite build --lite-dir . --contents content --output-dir dist
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
