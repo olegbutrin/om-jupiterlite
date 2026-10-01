@@ -1,5 +1,5 @@
 {
   "PipliteAddon": {
-    "piplite_urls": ["custom_wheels/"]
+    "piplite_urls": ["pypi/"]
   }
 }
